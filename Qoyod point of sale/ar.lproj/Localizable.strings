@@ -1,0 +1,339 @@
+/* 1 item selected */
+"1 item selected" = "منتج واحد مختار";
+
+/* All */
+"All" = "الجميع";
+
+/* Generric error message */
+"An error occurred. Error code" = "حصل خطأ رقم";
+
+/* Unknown error message */
+"An unknown error occurred" = "حصل خطأ مجهول";
+
+/* Bluetooth */
+"Bluetooth" = "البلوتوث";
+
+/* Bluetooth Low Energy */
+"Bluetooth Low Energy" = "البلوتوث منخض الطاقة";
+
+"Create New Customer" = "انشاء عميل جديد";
+
+/* Cancel */
+"Cancel" = "إلغاء";
+
+/* cancel */
+"CANCEL" = "إلغاء";
+
+/* Confirm. */
+"Confirm" = "تأكيد";
+
+"CONFIRM" = "تأكيد";
+
+/* Customer Name */
+"Customer Name" = "اسم العميل";
+
+/* Customer Phone */
+"Customer Phone" = "هاتف العميل";
+
+/* Done */
+"Done" = "حفظ";
+
+/* No comment provided by engineer. */
+"Error" = "خطأ";
+
+/* Error Code message */
+"Error Code" = "خطأ رقم";
+
+/* Fail to Open Port */
+"Fail to Open Port" = "فشل الاتصال";
+
+/* Failed message */
+"Failed" = "فشل";
+
+/* Fill in the port name. */
+"Fill in the port name." = "يرجى ادخال رقم الجهاز";
+
+/* No comment provided by engineer. */
+"Go to the Qoyod's Dashboard > Settings > Users > check POS user" = "الذهاب إلى الإعدادات ثم المستخدمين ثم تفعيل نقاط البيع";
+
+/* High when Open */
+"High when Open" = "إشارة مرتفعة أثناء الاستخدام";
+
+/* No comment provided by engineer. */
+"How to activate Qoyod's Point of Sale user" = "كيفية تفعيل مستخدم نقاط البيع";
+
+/* No comment provided by engineer. */
+"HOW TO ACTIVATE QOYOD'S POINT OF SALE USER" = "كيفية تفعيل مستخدم نقاط البيع";
+
+/* Invalid pin */
+"Invalid pin" = "الرقم السري غير صالح";
+
+/* Is your printer */
+"Is your printer" = "هل الطابعة";
+
+/* items selected */
+"items selected" = "منتج مختار";
+
+/* LAN */
+"LAN" = "شبكة محلية";
+
+/* Low when Open */
+"Low when Open" = "إشارة منخفضة أثناء الاستخدام";
+
+/* Manual */
+"Manual" = "يدوية";
+
+/* NO */
+"NO" = "كلا";
+
+/* No comment provided by engineer. */
+"No data" = "لا توجد معلومات";
+
+/* Nothing to show */
+"Nothing to show" = "لا يوجد شي لعرضه";
+
+/* ok */
+"OK" = "حسنا";
+
+/* Invoices */
+"Invoices" = "الفواتير";
+
+/* Paid Invoices */
+"Paid Invoices" = "الفواتير المدفوعة";
+
+"Partially Paid Invoices" = "الفواتير المدفوعة جزئيا";
+
+/* Pay */
+"Pay" = "الدفع";
+
+/* Pin code doesn't match */
+"Pin code doesn't match" = "الرقم السري غير صحيح";
+
+/* Login - Invalid email error message */
+"Please enter a valid email" = "يرجى اختيار بريد الكتروني صحيح";
+
+/* Login - Invalid password error message */
+"Please enter a valid name" = "يرجى اختيار اسم صحيح";
+
+/* Login - Invalid password error message */
+"Please enter a valid password" = "يرجى اختيار كلمة سر صحيحة";
+
+/* Login - Invalid password error message */
+"Please enter a valid phone number" = "يرجى اختيار رقم صحيح";
+
+/* Please enter the port name. */
+"Please enter the port name." = "يرجى ادخال رقم الجهاز";
+
+/* Please enter the port settings. */
+"Please enter the port settings." = "يرجى ادخال اعددات الجهاز";
+
+/* POS invoice # */
+"POS invoice #" = "رقم فاتورة نقاط البيع";
+
+/* Printer Error */
+"Printer Error" = "خطأ في الطابعة";
+
+/* Printer is offline (BeginCheckedBlock) */
+"Printer is offline (BeginCheckedBlock)" = "الطابعة غير متصلة";
+
+/* Printer is offline (EndCheckedBlock) */
+"Printer is offline (EndCheckedBlock)" = "الطابعة غير متصلة";
+
+/* Products */
+"Products" = "المنتجات";
+
+/* Register */
+"Register" = "التسجيل";
+
+/* Select CashDrawer Open Status. */
+"Select CashDrawer Open Status." = "يرجى اختيار حالة الدرج أثناء الاستخدام";
+
+/* Select Interface. */
+"Select Interface." = "يرجى اختيار نوع الاتصال";
+
+/* Send Commands */
+"Send Commands" = "إرسال الأوامر";
+
+/* Success
+   Success message */
+"Success" = "نجح الأمر";
+
+/* No comment provided by engineer. */
+"The provided URL is incorrect" = "الرابط غير صحيح";
+
+/* No comment provided by engineer. */
+"The response is invalid" = "الرد غير متوقع";
+
+/* Unpaid Invoices */
+"Unpaid Invoices" = "الفواتير غير المدفوعة";
+
+/* USB */
+"USB" = "USB";
+
+/* Welcome back */
+"Welcome back" = "أهلا بك";
+
+/* What is your printer? */
+"What is your printer?" = "يرجى اختيار نوع الطابعة";
+
+/* Write port timed out */
+"Write port timed out" = "فشل الاتصال";
+
+/* Wrong pin */
+"Wrong pin" = "الرمز خاطئ";
+
+/* YES */
+"YES" = "نعم";
+
+/* No comment provided by engineer. */
+"You can register in the Qoyod's POS program by registering on Qoyod's website and then activate POS for the user" = "يمكنك تفعيل نقاط البيع بالذهاب إلى الإعدادات في موقع قيود";
+
+"Do you want to sync unsynced invoices?" = "هل تريد مزامنة الفواتير؟";
+
+"You can deselect the product by swiping it to right" = "يمكنك إزالة المنتج بالسحب إلى اليمين";
+
+"Organization not found" = "المنظمة غير موجودة";
+
+"Network error. Please try later." = "خطأ شبكة. يرجى المحاولة مرة أخرى.";
+
+"Product is out of stock" = "نفذ مخزون المنتج";
+
+"You have already entered your billed amount." = "لقد قمت بإدخال المبلغ كاملا";
+
+"Printer is not connected." = " الطابعة غير متصل";
+
+"Please select a product." = "يرجى اختيار منتج";
+
+"Please select a customer to generate invoice." = "يرجى اختيار عميل لإنشاء الفاتورة";
+
+"Please enter valid amount" = "يرجى إدخال قيمة صحيحة";
+
+"Quantity should not be greater than stock" = "لا يمكن ادخال كمية أكبر من المخزون";
+
+"Quantity cannot be less than one. Do you want to deselect this product?" = "لا يمكن ادخال كمية أقل من 1. هل تريد إزالة هذا المنتج؟";
+
+"Select all" = "اختيار الكل";
+
+"Deselect all" = "إزالة إختيار الكل";
+
+"Checkout" = "إتمام الشراء";
+
+"Language" = "اللغة";
+
+"Settings" = "الإعدادات";
+
+"Pay Later" = "الدفع لاحقا";
+
+"NEW CUSTOMER" = "عميل جديد";
+
+"Logout" = " تسجيل الخروج";
+
+"NO" = "لا";
+
+"Customer has been created successfully." = "تم إنشاء العميل بنجاح";
+
+"Quantity cannot be less than one. Do you want to deselect this product?" =  "لا يمكن ادخال كمية أقل من 1. هل تريد إزالة هذا المنتج؟";
+
+"You can deselect the product by swiping it to right." = "يمكنك إزالة المنتج بالسحب إلى اليمين";
+
+"There is nothing here." = "لا يوجد شيء هنا";
+
+"Printer" = "طابعة";
+
+"Search Products" = "البحث عن المنتجات";
+
+"Search Invoices" = "بحث الفواتير";
+
+"All Products" = "جميع المنتجات";
+
+"All Categories" = "جميع الفئات";
+
+"New Invoice" = "فاتورة جديدة";
+
+"Enter Pin Code" = "أدخل الرقم السري";
+
+"Pin Code" = "الرقم السري";
+
+"Reset pin code" = "إعادة تعيين الرمز السري";
+
+"Total" = "مجموع";
+
+"Tax Amount" = "قيمة الضريبة";
+
+"Before Tax" = "قبل الضرائب";
+
+"Remaining" = "متبق";
+
+"All" = "الكل";
+
+"Synchronized" = "متزامنة";
+
+"Unsynchronized" = "غير متزامنة";
+
+"Printers" = "الطابعات";
+
+"No Printer" = "لا يوجد طابعة متصلة";
+
+"Change" = "الباقي";
+
+"Full Name" = "الاسم الكامل";
+
+"No Printer Connected" = "لا يوجد طابعة متصلة";
+
+"Do you want to continue without a printer connected?" = "هل تريد المتابعة بدون طابعة متصلة؟";
+
+"Continue" = "المتابعة";
+
+"There is nothing here." = "لا يوجد شيء هنا";
+
+"Email" = "البريد الالكتروني";
+
+"Primary Contact Number" = "رقم الاتصال الرئيسي";
+
+"Choose a payment method" = "اختر طريقة الدفع";
+
+"POS Invoice" = "فاتورة نقاط البيع";
+
+"Unable to connect with the server. Please check your internet connection." = "لا يمكن الاتصال بالخادم. يرجى التأكد من الاتصال بالانترنت";
+
+"Cart" = "سلة المشتريات";
+
+"Paid" = "المدفوعة";
+
+"Payment Confirmation" = "تأكيد الدفعة";
+
+"Checkout" = "الدفع";
+
+"Item Quantity" = "كمية السلعة";
+
+"Enter the quantity of" = "ادخل الكمية";
+
+"APPLY" = "تطبيق";
+
+"Tax Amount" = "قيمة الضريبة";
+
+"Enter the amount of tax" = "ادخل نسبة الضريبة";
+
+"Product Price" = "سعر المنتج";
+
+"Discount" = "خصم";
+
+"Enter the amount of discount on" = "ادخل نسبة الخصم";
+
+"Quantity cannot be zero. Do you want to deselect this product?" = "لا يمكن ان تكون الكمية صفر. هل تريد ازالة المنتج من السلة؟";
+
+"Enter the price of product" = "ادخل سعر المنتج";
+
+"SKU" = "الرقم التسلسلي";
+
+"Stock" = "المخزون";
+
+"Login" = "تسجيل الدخول";
+
+"Password" = "كلمة السر";
+
+"Forgot Password?" = "نسيت كلمة السر؟";
+
+"Register now" = "تسجيل الآن";
+
+"Don't have an account?" = "ليس لديك حساب؟";

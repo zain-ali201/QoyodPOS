@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1010"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5BB465822139853900A2FBD6"
+               BuildableName = "&#x642;&#x64a;&#x648;&#x62f; &#x646;&#x642;&#x627;&#x637; &#x627;&#x644;&#x628;&#x64a;&#x639; &#x646;&#x633;&#x62e;&#x629; &#x62a;&#x62c;&#x631;&#x64a;&#x628;&#x64a;&#x629;.app"
+               BlueprintName = "Qoyod point of sale"
+               ReferencedContainer = "container:Qoyod point of sale.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5BB465822139853900A2FBD6"
+            BuildableName = "&#x642;&#x64a;&#x648;&#x62f; &#x646;&#x642;&#x627;&#x637; &#x627;&#x644;&#x628;&#x64a;&#x639; &#x646;&#x633;&#x62e;&#x629; &#x62a;&#x62c;&#x631;&#x64a;&#x628;&#x64a;&#x629;.app"
+            BlueprintName = "Qoyod point of sale"
+            ReferencedContainer = "container:Qoyod point of sale.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Release"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5BB465822139853900A2FBD6"
+            BuildableName = "&#x642;&#x64a;&#x648;&#x62f; &#x646;&#x642;&#x627;&#x637; &#x627;&#x644;&#x628;&#x64a;&#x639; &#x646;&#x633;&#x62e;&#x629; &#x62a;&#x62c;&#x631;&#x64a;&#x628;&#x64a;&#x629;.app"
+            BlueprintName = "Qoyod point of sale"
+            ReferencedContainer = "container:Qoyod point of sale.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5BB465822139853900A2FBD6"
+            BuildableName = "&#x642;&#x64a;&#x648;&#x62f; &#x646;&#x642;&#x627;&#x637; &#x627;&#x644;&#x628;&#x64a;&#x639; &#x646;&#x633;&#x62e;&#x629; &#x62a;&#x62c;&#x631;&#x64a;&#x628;&#x64a;&#x629;.app"
+            BlueprintName = "Qoyod point of sale"
+            ReferencedContainer = "container:Qoyod point of sale.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

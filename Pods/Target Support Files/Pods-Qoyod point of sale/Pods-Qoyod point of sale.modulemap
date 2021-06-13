@@ -1,0 +1,6 @@
+framework module Pods_Qoyod_point_of_sale {
+  umbrella header "Pods-Qoyod point of sale-umbrella.h"
+
+  export *
+  module * { export * }
+}

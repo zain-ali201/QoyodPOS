@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "LDH-tj-xiq"; */
+"LDH-tj-xiq.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "register now"; ObjectID = "Q1q-Y1-ifC"; */
+"Q1q-Y1-ifC.normalTitle" = "register now";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Tu6-7c-HFQ"; */
+"Tu6-7c-HFQ.text" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "VRz-99-Rnn"; */
+"VRz-99-Rnn.normalTitle" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "VtP-Sf-tcV"; */
+"VtP-Sf-tcV.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "XRE-pp-bCN"; */
+"XRE-pp-bCN.normalTitle" = "Continue";
+
+/* Class = "UITextField"; placeholder = "Pin Code"; ObjectID = "cut-ud-JEO"; */
+"cut-ud-JEO.placeholder" = "Pin Code";
+
+/* Class = "UILabel"; text = "Enter Pin Code"; ObjectID = "ewu-NW-9lU"; */
+"ewu-NW-9lU.text" = "Enter Pin Code";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "haD-rh-Zzj"; */
+"haD-rh-Zzj.normalTitle" = "Forgot password?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jJZ-9S-3d1"; */
+"jJZ-9S-3d1.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "rXx-Gy-y3i"; */
+"rXx-Gy-y3i.text" = "Don't have an account?";
+
+/* Class = "UILabel"; text = "Choose \nOrganization"; ObjectID = "y3j-CR-Yeo"; */
+"y3j-CR-Yeo.text" = "Choose \nOrganization";

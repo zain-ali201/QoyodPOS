@@ -1,0 +1,1159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459D1387227F033D0060C200 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D1386227F033C0060C200 /* MainViewController.swift */; };
+		459F3F1522687517009595C4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F3F1422687517009595C4 /* SignupViewController.swift */; };
+		459F3F1722687C56009595C4 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F3F1622687C55009595C4 /* ForgotPasswordVC.swift */; };
+		45AACBA52271B4A60083C544 /* TaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AACBA42271B4A50083C544 /* TaxViewController.swift */; };
+		45C6A76422708DB700E021EB /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6A76322708DB700E021EB /* PriceViewController.swift */; };
+		5B10A92F214AAE4D00E5DFF8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B10A92E214AAE4D00E5DFF8 /* CoreBluetooth.framework */; };
+		5B10A931214AAE5400E5DFF8 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B10A930214AAE5400E5DFF8 /* ExternalAccessory.framework */; };
+		5B10A94D214B032400E5DFF8 /* DeviceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A937214B032200E5DFF8 /* DeviceStatusViewController.swift */; };
+		5B10A950214B032400E5DFF8 /* SMDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A93A214B032200E5DFF8 /* SMDefine.swift */; };
+		5B10A951214B032400E5DFF8 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A93B214B032300E5DFF8 /* SettingManager.swift */; };
+		5B10A952214B032400E5DFF8 /* SearchPortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A93C214B032300E5DFF8 /* SearchPortViewController.swift */; };
+		5B10A953214B032400E5DFF8 /* PrinterFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A93E214B032300E5DFF8 /* PrinterFunctions.swift */; };
+		5B10A958214B032400E5DFF8 /* CashDrawerFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A943214B032300E5DFF8 /* CashDrawerFunctions.swift */; };
+		5B10A95A214B032400E5DFF8 /* BluetoothSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A945214B032300E5DFF8 /* BluetoothSettingViewController.swift */; };
+		5B10A95B214B032400E5DFF8 /* CashDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A946214B032300E5DFF8 /* CashDrawerViewController.swift */; };
+		5B10A95C214B032400E5DFF8 /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A947214B032300E5DFF8 /* CommonViewController.swift */; };
+		5B10A95E214B032400E5DFF8 /* Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A94A214B032300E5DFF8 /* Communication.swift */; };
+		5B10A973214B047100E5DFF8 /* ILocalizeReceipts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A968214B047000E5DFF8 /* ILocalizeReceipts.swift */; };
+		5B10A974214B047100E5DFF8 /* EnglishReceiptsImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A969214B047000E5DFF8 /* EnglishReceiptsImpl.swift */; };
+		5B10A97C214B057000E5DFF8 /* ModelCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A97B214B057000E5DFF8 /* ModelCapability.swift */; };
+		5B10A97E214B060100E5DFF8 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A97D214B060100E5DFF8 /* SwitchTableViewCell.swift */; };
+		5B10A980214B062300E5DFF8 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A97F214B062300E5DFF8 /* TextFieldTableViewCell.swift */; };
+		5B10A984214B065E00E5DFF8 /* GlobalQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B10A983214B065E00E5DFF8 /* GlobalQueueManager.swift */; };
+		5B12C2A4213F3C580061F193 /* PaymentConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C2A3213F3C580061F193 /* PaymentConfirmationViewController.swift */; };
+		5B12C2A621400B880061F193 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C2A521400B880061F193 /* ProductsViewController.swift */; };
+		5B12C2A82140490F0061F193 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C2A72140490F0061F193 /* CartViewController.swift */; };
+		5B12C2AA2140739D0061F193 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C2A92140739D0061F193 /* ScannerViewController.swift */; };
+		5B12C2AC214074200061F193 /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C2AB214074200061F193 /* BarCodeViewController.swift */; };
+		5B12C2AE21411C930061F193 /* CustomerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C2AD21411C930061F193 /* CustomerManager.swift */; };
+		5B4F3BA121DD27FF00A3F85E /* BarcodeReaderExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F3B9F21DD27FF00A3F85E /* BarcodeReaderExtViewController.swift */; };
+		5B4F3BA221DD27FF00A3F85E /* CashDrawerExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F3BA021DD27FF00A3F85E /* CashDrawerExtViewController.swift */; };
+		5B4F3BA421DD294900A3F85E /* PrinterExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F3BA321DD294800A3F85E /* PrinterExtViewController.swift */; };
+		5B56EF5A2141832D0062471B /* NewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56EF592141832D0062471B /* NewCustomerViewController.swift */; };
+		5B56EF5C214296A20062471B /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56EF5B214296A20062471B /* DiscountViewController.swift */; };
+		5B6E2261214DB27B0052AEED /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B6E2260214DB27A0052AEED /* beep.mp3 */; };
+		5B785BBC213D7C95000C4403 /* CategoriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B785BBB213D7C95000C4403 /* CategoriesManager.swift */; };
+		5B785BBE213D90A1000C4403 /* CommonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B785BBD213D90A1000C4403 /* CommonManager.swift */; };
+		5B785BC0213DBCD3000C4403 /* InvoicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B785BBF213DBCD3000C4403 /* InvoicesManager.swift */; };
+		5B785BC2213E8A4F000C4403 /* UITableView+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B785BC1213E8A4F000C4403 /* UITableView+Addition.swift */; };
+		5B785BC4213F1605000C4403 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B785BC3213F1605000C4403 /* PaymentViewController.swift */; };
+		5B90A3A8213D3FF500E0C1B2 /* InvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90A3A7213D3FF500E0C1B2 /* InvoicesViewController.swift */; };
+		5B90A3AB213D4C5200E0C1B2 /* InvoiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90A3AA213D4C5200E0C1B2 /* InvoiceDetailsViewController.swift */; };
+		5B90A3AD213D774300E0C1B2 /* NewInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90A3AC213D774300E0C1B2 /* NewInvoiceViewController.swift */; };
+		5BA42D28215D7842001FB418 /* CustomerSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA42D27215D7842001FB418 /* CustomerSearchTableViewController.swift */; };
+		5BACEE0B21A8552100FD1B4E /* NewPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BACEE0A21A8552100FD1B4E /* NewPinViewController.swift */; };
+		5BAD32A0214B869F00790978 /* Star.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD32A2214B869F00790978 /* Star.storyboard */; };
+		5BAD32AF214C245100790978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD32AD214C245100790978 /* InfoPlist.strings */; };
+		5BAD32B2214C245100790978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD32B0214C245100790978 /* InfoPlist.strings */; };
+		5BAD32B4214DA99600790978 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAD32B3214DA99600790978 /* CoreAudioKit.framework */; };
+		5BB465872139853900A2FBD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465862139853900A2FBD6 /* AppDelegate.swift */; };
+		5BB4658C2139853900A2FBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB4658A2139853900A2FBD6 /* Main.storyboard */; };
+		5BB4658F2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4658D2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodeld */; };
+		5BB465912139853900A2FBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB465902139853900A2FBD6 /* Assets.xcassets */; };
+		5BB465942139853900A2FBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB465922139853900A2FBD6 /* LaunchScreen.storyboard */; };
+		5BB4659F2139853900A2FBD6 /* Qoyod_point_of_saleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4659E2139853900A2FBD6 /* Qoyod_point_of_saleTests.swift */; };
+		5BB465C0213A7F8600A2FBD6 /* Dictionary+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465AA213A7F8600A2FBD6 /* Dictionary+Addition.swift */; };
+		5BB465C1213A7F8600A2FBD6 /* NetworkActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465AB213A7F8600A2FBD6 /* NetworkActivityManager.swift */; };
+		5BB465C2213A7F8600A2FBD6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465AC213A7F8600A2FBD6 /* Environment.swift */; };
+		5BB465C3213A7F8600A2FBD6 /* loggingPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465AD213A7F8600A2FBD6 /* loggingPrint.swift */; };
+		5BB465C4213A7F8600A2FBD6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465AE213A7F8600A2FBD6 /* Request.swift */; };
+		5BB465C5213A7F8600A2FBD6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465AF213A7F8600A2FBD6 /* API.swift */; };
+		5BB465CA213A7F8600A2FBD6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465B5213A7F8600A2FBD6 /* NetworkManager.swift */; };
+		5BB465CF213A7F8600A2FBD6 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465BA213A7F8600A2FBD6 /* AuthManager.swift */; };
+		5BB465D9213A817C00A2FBD6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465D8213A817C00A2FBD6 /* Helpers.swift */; };
+		5BB465DC213A823600A2FBD6 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465DB213A823600A2FBD6 /* NetworkConfig.swift */; };
+		5BB465DE213A828000A2FBD6 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465DD213A828000A2FBD6 /* KeychainService.swift */; };
+		5BB465E1213A86C300A2FBD6 /* Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465E0213A86C300A2FBD6 /* Customization.swift */; };
+		5BB465E3213A89C400A2FBD6 /* UIStoryboard+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465E2213A89C300A2FBD6 /* UIStoryboard+Addition.swift */; };
+		5BB465E7213A8CA000A2FBD6 /* Reachability+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465E6213A8CA000A2FBD6 /* Reachability+Shared.swift */; };
+		5BB465EA213A8E1D00A2FBD6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465E9213A8E1D00A2FBD6 /* LoginViewController.swift */; };
+		5BB465ED213AB07A00A2FBD6 /* UnderlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465EB213AB07A00A2FBD6 /* UnderlineView.swift */; };
+		5BB465EE213AB07A00A2FBD6 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465EC213AB07A00A2FBD6 /* UnderlinedTextField.swift */; };
+		5BB465F0213B0BB600A2FBD6 /* UIViewController+Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465EF213B0BB500A2FBD6 /* UIViewController+Activity.swift */; };
+		5BB465F2213BEC5000A2FBD6 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465F1213BEC5000A2FBD6 /* PinViewController.swift */; };
+		5BB465F6213C2D7700A2FBD6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465F5213C2D7700A2FBD6 /* SettingsViewController.swift */; };
+		5BB465F8213C693F00A2FBD6 /* OrgnizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465F7213C693F00A2FBD6 /* OrgnizationManager.swift */; };
+		5BCFCCBA21523FC400E64C79 /* QuantityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCFCCB921523FC400E64C79 /* QuantityViewController.swift */; };
+		5BF0548E213C8A7300DFC0B9 /* OrganizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0548D213C8A7300DFC0B9 /* OrganizationViewController.swift */; };
+		5BF05490213CFDFE00DFC0B9 /* StatusColoredNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0548F213CFDFE00DFC0B9 /* StatusColoredNavigationController.swift */; };
+		5BF05492213CFE0C00DFC0B9 /* StyledNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF05491213CFE0C00DFC0B9 /* StyledNavigationController.swift */; };
+		5BF05497213D1B0E00DFC0B9 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF05499213D1B0E00DFC0B9 /* Onboarding.storyboard */; };
+		5BF054A3213D1B7400DFC0B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BF054A1213D1B7400DFC0B9 /* Localizable.strings */; };
+		AB0D9004231D18B00008FC59 /* SMCloudServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0D9001231D18AF0008FC59 /* SMCloudServices.framework */; };
+		AB0D9005231D18B00008FC59 /* StarIO_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0D9002231D18B00008FC59 /* StarIO_Extension.framework */; };
+		AB0D9006231D18B00008FC59 /* StarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0D9003231D18B00008FC59 /* StarIO.framework */; };
+		AB0D9008231D18C40008FC59 /* SMCloudServicesResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB0D9007231D18C40008FC59 /* SMCloudServicesResources.bundle */; };
+		AB49CC3823573D24006F5E6A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB49CC3723573D24006F5E6A /* libxml2.2.tbd */; };
+		AB91C4522358950600AFB32F /* libepos2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB91C4512358950500AFB32F /* libepos2.a */; };
+		AB9C533C23573672009399DD /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9C532923573671009399DD /* store.png */; };
+		AB9C533D23573672009399DD /* wmark.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9C532A23573671009399DD /* wmark.png */; };
+		AB9C534223573672009399DD /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9C533523573672009399DD /* button.png */; };
+		AB9C534523573672009399DD /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9C533923573672009399DD /* coffee.png */; };
+		AB9C5354235737A2009399DD /* Epson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9C5353235737A1009399DD /* Epson.storyboard */; };
+		AB9C535C235737D7009399DD /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C5355235737D6009399DD /* CustomPickerView.swift */; };
+		AB9C535D235737D7009399DD /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C5356235737D6009399DD /* DiscoveryViewController.swift */; };
+		AB9C535E235737D7009399DD /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C5357235737D6009399DD /* MessageView.swift */; };
+		AB9C535F235737D7009399DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C5358235737D6009399DD /* ViewController.swift */; };
+		ABD4F913231F9DCA005DDF56 /* PrinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4F912231F9DCA005DDF56 /* PrinterViewController.swift */; };
+		ABE40B03232A5FC20011FB78 /* PrintersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE40B02232A5FC10011FB78 /* PrintersListVC.swift */; };
+		AF01AE5BECB844CC18D54043 /* Pods_Qoyod_point_of_sale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C357C9E4297F5F57D887B0 /* Pods_Qoyod_point_of_sale.framework */; };
+		EB7917F24B1F5BC1EF5977F0 /* Pods_Qoyod_point_of_saleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA6BA032111E62144420015 /* Pods_Qoyod_point_of_saleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB4659B2139853900A2FBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB4657B2139853900A2FBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB465822139853900A2FBD6;
+			remoteInfo = "Qoyod point of sale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32C357C9E4297F5F57D887B0 /* Pods_Qoyod_point_of_sale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qoyod_point_of_sale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F68A1FBCB0BC51DC43B9E7 /* Pods-Qoyod point of sale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qoyod point of sale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qoyod point of sale/Pods-Qoyod point of sale.debug.xcconfig"; sourceTree = "<group>"; };
+		459D1386227F033C0060C200 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		459F3F1422687517009595C4 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		459F3F1622687C55009595C4 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		45AACBA42271B4A50083C544 /* TaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxViewController.swift; sourceTree = "<group>"; };
+		45C6A76322708DB700E021EB /* PriceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		5A13654AFB40223671042642 /* Pods-Qoyod point of sale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qoyod point of sale.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qoyod point of sale/Pods-Qoyod point of sale.release.xcconfig"; sourceTree = "<group>"; };
+		5B10A92E214AAE4D00E5DFF8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5B10A930214AAE5400E5DFF8 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		5B10A937214B032200E5DFF8 /* DeviceStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceStatusViewController.swift; sourceTree = "<group>"; };
+		5B10A93A214B032200E5DFF8 /* SMDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDefine.swift; sourceTree = "<group>"; };
+		5B10A93B214B032300E5DFF8 /* SettingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		5B10A93C214B032300E5DFF8 /* SearchPortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPortViewController.swift; sourceTree = "<group>"; };
+		5B10A93E214B032300E5DFF8 /* PrinterFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterFunctions.swift; sourceTree = "<group>"; };
+		5B10A943214B032300E5DFF8 /* CashDrawerFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashDrawerFunctions.swift; sourceTree = "<group>"; };
+		5B10A945214B032300E5DFF8 /* BluetoothSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSettingViewController.swift; sourceTree = "<group>"; };
+		5B10A946214B032300E5DFF8 /* CashDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashDrawerViewController.swift; sourceTree = "<group>"; };
+		5B10A947214B032300E5DFF8 /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		5B10A94A214B032300E5DFF8 /* Communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Communication.swift; sourceTree = "<group>"; };
+		5B10A968214B047000E5DFF8 /* ILocalizeReceipts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILocalizeReceipts.swift; sourceTree = "<group>"; };
+		5B10A969214B047000E5DFF8 /* EnglishReceiptsImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishReceiptsImpl.swift; sourceTree = "<group>"; };
+		5B10A97B214B057000E5DFF8 /* ModelCapability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelCapability.swift; sourceTree = "<group>"; };
+		5B10A97D214B060100E5DFF8 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		5B10A97F214B062300E5DFF8 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		5B10A983214B065E00E5DFF8 /* GlobalQueueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalQueueManager.swift; sourceTree = "<group>"; };
+		5B12C2A3213F3C580061F193 /* PaymentConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationViewController.swift; sourceTree = "<group>"; };
+		5B12C2A521400B880061F193 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		5B12C2A72140490F0061F193 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5B12C2A92140739D0061F193 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		5B12C2AB214074200061F193 /* BarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
+		5B12C2AD21411C930061F193 /* CustomerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManager.swift; sourceTree = "<group>"; };
+		5B4F3B9F21DD27FF00A3F85E /* BarcodeReaderExtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeReaderExtViewController.swift; sourceTree = "<group>"; };
+		5B4F3BA021DD27FF00A3F85E /* CashDrawerExtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashDrawerExtViewController.swift; sourceTree = "<group>"; };
+		5B4F3BA321DD294800A3F85E /* PrinterExtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterExtViewController.swift; sourceTree = "<group>"; };
+		5B56EF592141832D0062471B /* NewCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCustomerViewController.swift; sourceTree = "<group>"; };
+		5B56EF5B214296A20062471B /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
+		5B6E2260214DB27A0052AEED /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		5B785BBB213D7C95000C4403 /* CategoriesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesManager.swift; sourceTree = "<group>"; };
+		5B785BBD213D90A1000C4403 /* CommonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonManager.swift; sourceTree = "<group>"; };
+		5B785BBF213DBCD3000C4403 /* InvoicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesManager.swift; sourceTree = "<group>"; };
+		5B785BC1213E8A4F000C4403 /* UITableView+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Addition.swift"; sourceTree = "<group>"; };
+		5B785BC3213F1605000C4403 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		5B90A3A1213D1CA400E0C1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5B90A3A7213D3FF500E0C1B2 /* InvoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesViewController.swift; sourceTree = "<group>"; };
+		5B90A3AA213D4C5200E0C1B2 /* InvoiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceDetailsViewController.swift; sourceTree = "<group>"; };
+		5B90A3AC213D774300E0C1B2 /* NewInvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInvoiceViewController.swift; sourceTree = "<group>"; };
+		5BA42D27215D7842001FB418 /* CustomerSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSearchTableViewController.swift; sourceTree = "<group>"; };
+		5BACEE0A21A8552100FD1B4E /* NewPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPinViewController.swift; sourceTree = "<group>"; };
+		5BAD32A1214B869F00790978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Star.storyboard; sourceTree = "<group>"; };
+		5BAD32A3214B86B600790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		5BAD32A4214B86B700790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Onboarding.strings; sourceTree = "<group>"; };
+		5BAD32A5214B86B700790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Star.strings; sourceTree = "<group>"; };
+		5BAD32A6214B86B700790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5BAD32A7214B86B700790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5BAD32A8214B9AAB00790978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5BAD32A9214B9AAB00790978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Onboarding.strings; sourceTree = "<group>"; };
+		5BAD32AA214B9AAB00790978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Star.strings; sourceTree = "<group>"; };
+		5BAD32AB214B9AAB00790978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5BAD32AC214B9AAB00790978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5BAD32AE214C245100790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BAD32B1214C245100790978 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BAD32B3214DA99600790978 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		5BB465832139853900A2FBD6 /* قيود نقاط البيع نسخة تجريبية.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "قيود نقاط البيع نسخة تجريبية.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB465862139853900A2FBD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BB4658B2139853900A2FBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BB4658E2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qoyod_point_of_sale.xcdatamodel; sourceTree = "<group>"; };
+		5BB465902139853900A2FBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BB465932139853900A2FBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BB4659A2139853900A2FBD6 /* Qoyod point of saleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qoyod point of saleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB4659E2139853900A2FBD6 /* Qoyod_point_of_saleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qoyod_point_of_saleTests.swift; sourceTree = "<group>"; };
+		5BB465A02139853900A2FBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB465AA213A7F8600A2FBD6 /* Dictionary+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Addition.swift"; sourceTree = "<group>"; };
+		5BB465AB213A7F8600A2FBD6 /* NetworkActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityManager.swift; sourceTree = "<group>"; };
+		5BB465AC213A7F8600A2FBD6 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		5BB465AD213A7F8600A2FBD6 /* loggingPrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loggingPrint.swift; sourceTree = "<group>"; };
+		5BB465AE213A7F8600A2FBD6 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5BB465AF213A7F8600A2FBD6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5BB465B5213A7F8600A2FBD6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5BB465BA213A7F8600A2FBD6 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		5BB465D8213A817C00A2FBD6 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5BB465DB213A823600A2FBD6 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		5BB465DD213A828000A2FBD6 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		5BB465E0213A86C300A2FBD6 /* Customization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customization.swift; sourceTree = "<group>"; };
+		5BB465E2213A89C300A2FBD6 /* UIStoryboard+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Addition.swift"; sourceTree = "<group>"; };
+		5BB465E6213A8CA000A2FBD6 /* Reachability+Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reachability+Shared.swift"; sourceTree = "<group>"; };
+		5BB465E9213A8E1D00A2FBD6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5BB465EB213AB07A00A2FBD6 /* UnderlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineView.swift; sourceTree = "<group>"; };
+		5BB465EC213AB07A00A2FBD6 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		5BB465EF213B0BB500A2FBD6 /* UIViewController+Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Activity.swift"; sourceTree = "<group>"; };
+		5BB465F1213BEC5000A2FBD6 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		5BB465F5213C2D7700A2FBD6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5BB465F7213C693F00A2FBD6 /* OrgnizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgnizationManager.swift; sourceTree = "<group>"; };
+		5BCFCCB921523FC400E64C79 /* QuantityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityViewController.swift; sourceTree = "<group>"; };
+		5BF0548D213C8A7300DFC0B9 /* OrganizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationViewController.swift; sourceTree = "<group>"; };
+		5BF0548F213CFDFE00DFC0B9 /* StatusColoredNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusColoredNavigationController.swift; sourceTree = "<group>"; };
+		5BF05491213CFE0C00DFC0B9 /* StyledNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledNavigationController.swift; sourceTree = "<group>"; };
+		5BF05498213D1B0E00DFC0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
+		6CA6BA032111E62144420015 /* Pods_Qoyod_point_of_saleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qoyod_point_of_saleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0D9001231D18AF0008FC59 /* SMCloudServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMCloudServices.framework; sourceTree = "<group>"; };
+		AB0D9002231D18B00008FC59 /* StarIO_Extension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO_Extension.framework; sourceTree = "<group>"; };
+		AB0D9003231D18B00008FC59 /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
+		AB0D9007231D18C40008FC59 /* SMCloudServicesResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SMCloudServicesResources.bundle; path = SMCloudServices.framework/Versions/A/Resources/SMCloudServicesResources.bundle; sourceTree = "<group>"; };
+		AB49CC3723573D24006F5E6A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		AB91C44E235894E800AFB32F /* ePOS2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ePOS2.h; path = libs/ePOS2.h; sourceTree = "<group>"; };
+		AB91C4512358950500AFB32F /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libepos2.a; path = libs/libepos2.a; sourceTree = "<group>"; };
+		AB9C532923573671009399DD /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		AB9C532A23573671009399DD /* wmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wmark.png; sourceTree = "<group>"; };
+		AB9C533523573672009399DD /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		AB9C533923573672009399DD /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		AB9C5353235737A1009399DD /* Epson.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Epson.storyboard; sourceTree = "<group>"; };
+		AB9C5355235737D6009399DD /* CustomPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		AB9C5356235737D6009399DD /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		AB9C5357235737D6009399DD /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		AB9C5358235737D6009399DD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABD4F912231F9DCA005DDF56 /* PrinterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterViewController.swift; sourceTree = "<group>"; };
+		ABE40B02232A5FC10011FB78 /* PrintersListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintersListVC.swift; sourceTree = "<group>"; };
+		ABF70E9F22AD436A00402FA0 /* Qoyod point of sale-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qoyod point of sale-Bridging-Header.h"; sourceTree = "<group>"; };
+		C95619044A40C8331FA1ABCE /* Pods-Qoyod point of saleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qoyod point of saleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qoyod point of saleTests/Pods-Qoyod point of saleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F82420A8D6ADA23AD7F192ED /* Pods-Qoyod point of saleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qoyod point of saleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qoyod point of saleTests/Pods-Qoyod point of saleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB465802139853900A2FBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB49CC3823573D24006F5E6A /* libxml2.2.tbd in Frameworks */,
+				5BAD32B4214DA99600790978 /* CoreAudioKit.framework in Frameworks */,
+				5B10A931214AAE5400E5DFF8 /* ExternalAccessory.framework in Frameworks */,
+				AB91C4522358950600AFB32F /* libepos2.a in Frameworks */,
+				AB0D9006231D18B00008FC59 /* StarIO.framework in Frameworks */,
+				AB0D9005231D18B00008FC59 /* StarIO_Extension.framework in Frameworks */,
+				5B10A92F214AAE4D00E5DFF8 /* CoreBluetooth.framework in Frameworks */,
+				AB0D9004231D18B00008FC59 /* SMCloudServices.framework in Frameworks */,
+				AF01AE5BECB844CC18D54043 /* Pods_Qoyod_point_of_sale.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB465972139853900A2FBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7917F24B1F5BC1EF5977F0 /* Pods_Qoyod_point_of_saleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450DA225223A929700EDC40E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C5353235737A1009399DD /* Epson.storyboard */,
+				5BB4658A2139853900A2FBD6 /* Main.storyboard */,
+				5BF05499213D1B0E00DFC0B9 /* Onboarding.storyboard */,
+				5BAD32A2214B869F00790978 /* Star.storyboard */,
+				5BB465922139853900A2FBD6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		450DA226223A92A600EDC40E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465862139853900A2FBD6 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5B10A934214B02CB00E5DFF8 /* StarIO */ = {
+			isa = PBXGroup;
+			children = (
+				ABD4F912231F9DCA005DDF56 /* PrinterViewController.swift */,
+				5B10A964214B047000E5DFF8 /* LocalizeReceipts */,
+				5B10A949214B032300E5DFF8 /* Communications */,
+				5B10A93D214B032300E5DFF8 /* Functions */,
+				459D1386227F033C0060C200 /* MainViewController.swift */,
+				5B10A97D214B060100E5DFF8 /* SwitchTableViewCell.swift */,
+				5B10A97B214B057000E5DFF8 /* ModelCapability.swift */,
+				5B4F3B9F21DD27FF00A3F85E /* BarcodeReaderExtViewController.swift */,
+				5B4F3BA021DD27FF00A3F85E /* CashDrawerExtViewController.swift */,
+				5B4F3BA321DD294800A3F85E /* PrinterExtViewController.swift */,
+				5B10A97F214B062300E5DFF8 /* TextFieldTableViewCell.swift */,
+				5B10A983214B065E00E5DFF8 /* GlobalQueueManager.swift */,
+				5B10A945214B032300E5DFF8 /* BluetoothSettingViewController.swift */,
+				5B10A946214B032300E5DFF8 /* CashDrawerViewController.swift */,
+				5B10A947214B032300E5DFF8 /* CommonViewController.swift */,
+				5B10A937214B032200E5DFF8 /* DeviceStatusViewController.swift */,
+				5B10A93C214B032300E5DFF8 /* SearchPortViewController.swift */,
+				5B10A93B214B032300E5DFF8 /* SettingManager.swift */,
+				5B10A93A214B032200E5DFF8 /* SMDefine.swift */,
+			);
+			path = StarIO;
+			sourceTree = "<group>";
+		};
+		5B10A93D214B032300E5DFF8 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				5B10A93E214B032300E5DFF8 /* PrinterFunctions.swift */,
+				5B10A943214B032300E5DFF8 /* CashDrawerFunctions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		5B10A949214B032300E5DFF8 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				5B10A94A214B032300E5DFF8 /* Communication.swift */,
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
+		5B10A964214B047000E5DFF8 /* LocalizeReceipts */ = {
+			isa = PBXGroup;
+			children = (
+				5B10A968214B047000E5DFF8 /* ILocalizeReceipts.swift */,
+				5B10A969214B047000E5DFF8 /* EnglishReceiptsImpl.swift */,
+			);
+			path = LocalizeReceipts;
+			sourceTree = "<group>";
+		};
+		5B90A3A9213D4C3000E0C1B2 /* Invoices */ = {
+			isa = PBXGroup;
+			children = (
+				5B90A3AC213D774300E0C1B2 /* NewInvoiceViewController.swift */,
+				5B12C2A521400B880061F193 /* ProductsViewController.swift */,
+				5B90A3A7213D3FF500E0C1B2 /* InvoicesViewController.swift */,
+				5B90A3AA213D4C5200E0C1B2 /* InvoiceDetailsViewController.swift */,
+				5B785BC3213F1605000C4403 /* PaymentViewController.swift */,
+				5B12C2A3213F3C580061F193 /* PaymentConfirmationViewController.swift */,
+				5B12C2A72140490F0061F193 /* CartViewController.swift */,
+				5B12C2A92140739D0061F193 /* ScannerViewController.swift */,
+				5B12C2AB214074200061F193 /* BarCodeViewController.swift */,
+				5B56EF592141832D0062471B /* NewCustomerViewController.swift */,
+				5B56EF5B214296A20062471B /* DiscountViewController.swift */,
+				45C6A76322708DB700E021EB /* PriceViewController.swift */,
+				45AACBA42271B4A50083C544 /* TaxViewController.swift */,
+				5BCFCCB921523FC400E64C79 /* QuantityViewController.swift */,
+				5BA42D27215D7842001FB418 /* CustomerSearchTableViewController.swift */,
+			);
+			path = Invoices;
+			sourceTree = "<group>";
+		};
+		5BB4657A2139853900A2FBD6 = {
+			isa = PBXGroup;
+			children = (
+				AB91C44E235894E800AFB32F /* ePOS2.h */,
+				ABF70E9F22AD436A00402FA0 /* Qoyod point of sale-Bridging-Header.h */,
+				5BB465852139853900A2FBD6 /* Qoyod point of sale */,
+				5BB4659D2139853900A2FBD6 /* Qoyod point of saleTests */,
+				5BB465842139853900A2FBD6 /* Products */,
+				B368B2F53453B4B06CEFD5C3 /* Pods */,
+				C58D573D44C28DE40A0A812A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB465842139853900A2FBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465832139853900A2FBD6 /* قيود نقاط البيع نسخة تجريبية.app */,
+				5BB4659A2139853900A2FBD6 /* Qoyod point of saleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB465852139853900A2FBD6 /* Qoyod point of sale */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465902139853900A2FBD6 /* Assets.xcassets */,
+				450DA225223A929700EDC40E /* Storyboards */,
+				450DA226223A92A600EDC40E /* AppDelegate */,
+				5BB465DF213A82B200A2FBD6 /* Controlers */,
+				5BB465DA213A818300A2FBD6 /* Helpers */,
+				5BB465D5213A7FA400A2FBD6 /* Database */,
+				5BB465A9213A7F8600A2FBD6 /* API */,
+				5BB465B0213A7F8600A2FBD6 /* Network */,
+				5B10A934214B02CB00E5DFF8 /* StarIO */,
+				AB9C532823573639009399DD /* Epson */,
+				5B6E2260214DB27A0052AEED /* beep.mp3 */,
+				5BAD32B0214C245100790978 /* InfoPlist.strings */,
+				5BF054A1213D1B7400DFC0B9 /* Localizable.strings */,
+			);
+			path = "Qoyod point of sale";
+			sourceTree = "<group>";
+		};
+		5BB4659D2139853900A2FBD6 /* Qoyod point of saleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4659E2139853900A2FBD6 /* Qoyod_point_of_saleTests.swift */,
+				5BB465A02139853900A2FBD6 /* Info.plist */,
+				5BAD32AD214C245100790978 /* InfoPlist.strings */,
+			);
+			path = "Qoyod point of saleTests";
+			sourceTree = "<group>";
+		};
+		5BB465A9213A7F8600A2FBD6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465AA213A7F8600A2FBD6 /* Dictionary+Addition.swift */,
+				5BB465AB213A7F8600A2FBD6 /* NetworkActivityManager.swift */,
+				5BB465AC213A7F8600A2FBD6 /* Environment.swift */,
+				5BB465AD213A7F8600A2FBD6 /* loggingPrint.swift */,
+				5BB465AE213A7F8600A2FBD6 /* Request.swift */,
+				5BB465AF213A7F8600A2FBD6 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5BB465B0213A7F8600A2FBD6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465B5213A7F8600A2FBD6 /* NetworkManager.swift */,
+				5B785BBD213D90A1000C4403 /* CommonManager.swift */,
+				5BB465BA213A7F8600A2FBD6 /* AuthManager.swift */,
+				5BB465DB213A823600A2FBD6 /* NetworkConfig.swift */,
+				5BB465F7213C693F00A2FBD6 /* OrgnizationManager.swift */,
+				5B785BBB213D7C95000C4403 /* CategoriesManager.swift */,
+				5B785BBF213DBCD3000C4403 /* InvoicesManager.swift */,
+				5B12C2AD21411C930061F193 /* CustomerManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BB465D5213A7FA400A2FBD6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4658D2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5BB465DA213A818300A2FBD6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465D8213A817C00A2FBD6 /* Helpers.swift */,
+				5BB465DD213A828000A2FBD6 /* KeychainService.swift */,
+				5BB465E0213A86C300A2FBD6 /* Customization.swift */,
+				5BB465E2213A89C300A2FBD6 /* UIStoryboard+Addition.swift */,
+				5BB465E6213A8CA000A2FBD6 /* Reachability+Shared.swift */,
+				5BB465EC213AB07A00A2FBD6 /* UnderlinedTextField.swift */,
+				5BB465EB213AB07A00A2FBD6 /* UnderlineView.swift */,
+				5BB465EF213B0BB500A2FBD6 /* UIViewController+Activity.swift */,
+				5BF0548F213CFDFE00DFC0B9 /* StatusColoredNavigationController.swift */,
+				5BF05491213CFE0C00DFC0B9 /* StyledNavigationController.swift */,
+				5B785BC1213E8A4F000C4403 /* UITableView+Addition.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5BB465DF213A82B200A2FBD6 /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465E8213A8DCD00A2FBD6 /* Login */,
+				5B90A3A9213D4C3000E0C1B2 /* Invoices */,
+				5BB465F5213C2D7700A2FBD6 /* SettingsViewController.swift */,
+				ABE40B02232A5FC10011FB78 /* PrintersListVC.swift */,
+			);
+			path = Controlers;
+			sourceTree = "<group>";
+		};
+		5BB465E8213A8DCD00A2FBD6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465E9213A8E1D00A2FBD6 /* LoginViewController.swift */,
+				5BB465F1213BEC5000A2FBD6 /* PinViewController.swift */,
+				5BF0548D213C8A7300DFC0B9 /* OrganizationViewController.swift */,
+				5BACEE0A21A8552100FD1B4E /* NewPinViewController.swift */,
+				459F3F1422687517009595C4 /* SignupViewController.swift */,
+				459F3F1622687C55009595C4 /* ForgotPasswordVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AB9C532823573639009399DD /* Epson */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C5355235737D6009399DD /* CustomPickerView.swift */,
+				AB9C5356235737D6009399DD /* DiscoveryViewController.swift */,
+				AB9C5357235737D6009399DD /* MessageView.swift */,
+				AB9C5358235737D6009399DD /* ViewController.swift */,
+				AB9C533523573672009399DD /* button.png */,
+				AB9C533923573672009399DD /* coffee.png */,
+				AB9C532923573671009399DD /* store.png */,
+				AB9C532A23573671009399DD /* wmark.png */,
+			);
+			path = Epson;
+			sourceTree = "<group>";
+		};
+		B368B2F53453B4B06CEFD5C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F68A1FBCB0BC51DC43B9E7 /* Pods-Qoyod point of sale.debug.xcconfig */,
+				5A13654AFB40223671042642 /* Pods-Qoyod point of sale.release.xcconfig */,
+				C95619044A40C8331FA1ABCE /* Pods-Qoyod point of saleTests.debug.xcconfig */,
+				F82420A8D6ADA23AD7F192ED /* Pods-Qoyod point of saleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C58D573D44C28DE40A0A812A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB91C4512358950500AFB32F /* libepos2.a */,
+				AB49CC3723573D24006F5E6A /* libxml2.2.tbd */,
+				AB0D9007231D18C40008FC59 /* SMCloudServicesResources.bundle */,
+				AB0D9001231D18AF0008FC59 /* SMCloudServices.framework */,
+				AB0D9002231D18B00008FC59 /* StarIO_Extension.framework */,
+				AB0D9003231D18B00008FC59 /* StarIO.framework */,
+				5BAD32B3214DA99600790978 /* CoreAudioKit.framework */,
+				5B10A930214AAE5400E5DFF8 /* ExternalAccessory.framework */,
+				5B10A92E214AAE4D00E5DFF8 /* CoreBluetooth.framework */,
+				32C357C9E4297F5F57D887B0 /* Pods_Qoyod_point_of_sale.framework */,
+				6CA6BA032111E62144420015 /* Pods_Qoyod_point_of_saleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB465822139853900A2FBD6 /* Qoyod point of sale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB465A32139853900A2FBD6 /* Build configuration list for PBXNativeTarget "Qoyod point of sale" */;
+			buildPhases = (
+				73F462F5996AE8288D0A0566 /* [CP] Check Pods Manifest.lock */,
+				5BB4657F2139853900A2FBD6 /* Sources */,
+				5BB465802139853900A2FBD6 /* Frameworks */,
+				5BB465812139853900A2FBD6 /* Resources */,
+				FFCD4305DE800E21D4915392 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qoyod point of sale";
+			productName = "Qoyod point of sale";
+			productReference = 5BB465832139853900A2FBD6 /* قيود نقاط البيع نسخة تجريبية.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB465992139853900A2FBD6 /* Qoyod point of saleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB465A62139853900A2FBD6 /* Build configuration list for PBXNativeTarget "Qoyod point of saleTests" */;
+			buildPhases = (
+				7647EE990B3A6D3A8B1496FA /* [CP] Check Pods Manifest.lock */,
+				5BB465962139853900A2FBD6 /* Sources */,
+				5BB465972139853900A2FBD6 /* Frameworks */,
+				5BB465982139853900A2FBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB4659C2139853900A2FBD6 /* PBXTargetDependency */,
+			);
+			name = "Qoyod point of saleTests";
+			productName = "Qoyod point of saleTests";
+			productReference = 5BB4659A2139853900A2FBD6 /* Qoyod point of saleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB4657B2139853900A2FBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sprint Solutions";
+				TargetAttributes = {
+					5BB465822139853900A2FBD6 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					5BB465992139853900A2FBD6 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5BB465822139853900A2FBD6;
+					};
+				};
+			};
+			buildConfigurationList = 5BB4657E2139853900A2FBD6 /* Build configuration list for PBXProject "Qoyod point of sale" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				en,
+			);
+			mainGroup = 5BB4657A2139853900A2FBD6;
+			productRefGroup = 5BB465842139853900A2FBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB465822139853900A2FBD6 /* Qoyod point of sale */,
+				5BB465992139853900A2FBD6 /* Qoyod point of saleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB465812139853900A2FBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAD32A0214B869F00790978 /* Star.storyboard in Resources */,
+				AB9C534223573672009399DD /* button.png in Resources */,
+				5BAD32B2214C245100790978 /* InfoPlist.strings in Resources */,
+				5BF054A3213D1B7400DFC0B9 /* Localizable.strings in Resources */,
+				AB9C534523573672009399DD /* coffee.png in Resources */,
+				5BB465942139853900A2FBD6 /* LaunchScreen.storyboard in Resources */,
+				5B6E2261214DB27B0052AEED /* beep.mp3 in Resources */,
+				5BB465912139853900A2FBD6 /* Assets.xcassets in Resources */,
+				AB9C533D23573672009399DD /* wmark.png in Resources */,
+				5BB4658C2139853900A2FBD6 /* Main.storyboard in Resources */,
+				AB9C533C23573672009399DD /* store.png in Resources */,
+				AB9C5354235737A2009399DD /* Epson.storyboard in Resources */,
+				AB0D9008231D18C40008FC59 /* SMCloudServicesResources.bundle in Resources */,
+				5BF05497213D1B0E00DFC0B9 /* Onboarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB465982139853900A2FBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAD32AF214C245100790978 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73F462F5996AE8288D0A0566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qoyod point of sale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7647EE990B3A6D3A8B1496FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qoyod point of saleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFCD4305DE800E21D4915392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qoyod point of sale/Pods-Qoyod point of sale-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qoyod point of sale/Pods-Qoyod point of sale-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qoyod point of sale/Pods-Qoyod point of sale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB4657F2139853900A2FBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9C535F235737D7009399DD /* ViewController.swift in Sources */,
+				5B10A951214B032400E5DFF8 /* SettingManager.swift in Sources */,
+				5BF05492213CFE0C00DFC0B9 /* StyledNavigationController.swift in Sources */,
+				5B56EF5A2141832D0062471B /* NewCustomerViewController.swift in Sources */,
+				5BB465C0213A7F8600A2FBD6 /* Dictionary+Addition.swift in Sources */,
+				5B10A953214B032400E5DFF8 /* PrinterFunctions.swift in Sources */,
+				5B10A94D214B032400E5DFF8 /* DeviceStatusViewController.swift in Sources */,
+				5BB465CF213A7F8600A2FBD6 /* AuthManager.swift in Sources */,
+				5B12C2AA2140739D0061F193 /* ScannerViewController.swift in Sources */,
+				5BB465F2213BEC5000A2FBD6 /* PinViewController.swift in Sources */,
+				5B785BC2213E8A4F000C4403 /* UITableView+Addition.swift in Sources */,
+				5B10A97E214B060100E5DFF8 /* SwitchTableViewCell.swift in Sources */,
+				5B56EF5C214296A20062471B /* DiscountViewController.swift in Sources */,
+				5B10A95C214B032400E5DFF8 /* CommonViewController.swift in Sources */,
+				5BB465DC213A823600A2FBD6 /* NetworkConfig.swift in Sources */,
+				5B12C2A82140490F0061F193 /* CartViewController.swift in Sources */,
+				5B10A97C214B057000E5DFF8 /* ModelCapability.swift in Sources */,
+				5B12C2A621400B880061F193 /* ProductsViewController.swift in Sources */,
+				5BB465C1213A7F8600A2FBD6 /* NetworkActivityManager.swift in Sources */,
+				5B785BC4213F1605000C4403 /* PaymentViewController.swift in Sources */,
+				5BB465EE213AB07A00A2FBD6 /* UnderlinedTextField.swift in Sources */,
+				5B10A974214B047100E5DFF8 /* EnglishReceiptsImpl.swift in Sources */,
+				5B4F3BA121DD27FF00A3F85E /* BarcodeReaderExtViewController.swift in Sources */,
+				5B4F3BA421DD294900A3F85E /* PrinterExtViewController.swift in Sources */,
+				459F3F1522687517009595C4 /* SignupViewController.swift in Sources */,
+				459D1387227F033D0060C200 /* MainViewController.swift in Sources */,
+				5BB465CA213A7F8600A2FBD6 /* NetworkManager.swift in Sources */,
+				ABE40B03232A5FC20011FB78 /* PrintersListVC.swift in Sources */,
+				5B12C2AE21411C930061F193 /* CustomerManager.swift in Sources */,
+				5BB4658F2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodeld in Sources */,
+				5BB465872139853900A2FBD6 /* AppDelegate.swift in Sources */,
+				5BB465F8213C693F00A2FBD6 /* OrgnizationManager.swift in Sources */,
+				5B785BC0213DBCD3000C4403 /* InvoicesManager.swift in Sources */,
+				5B90A3AB213D4C5200E0C1B2 /* InvoiceDetailsViewController.swift in Sources */,
+				5B12C2AC214074200061F193 /* BarCodeViewController.swift in Sources */,
+				5B10A958214B032400E5DFF8 /* CashDrawerFunctions.swift in Sources */,
+				5BB465E7213A8CA000A2FBD6 /* Reachability+Shared.swift in Sources */,
+				45AACBA52271B4A60083C544 /* TaxViewController.swift in Sources */,
+				5B10A984214B065E00E5DFF8 /* GlobalQueueManager.swift in Sources */,
+				5BA42D28215D7842001FB418 /* CustomerSearchTableViewController.swift in Sources */,
+				5BB465DE213A828000A2FBD6 /* KeychainService.swift in Sources */,
+				5B785BBE213D90A1000C4403 /* CommonManager.swift in Sources */,
+				5B10A973214B047100E5DFF8 /* ILocalizeReceipts.swift in Sources */,
+				5BACEE0B21A8552100FD1B4E /* NewPinViewController.swift in Sources */,
+				5B90A3AD213D774300E0C1B2 /* NewInvoiceViewController.swift in Sources */,
+				45C6A76422708DB700E021EB /* PriceViewController.swift in Sources */,
+				5BCFCCBA21523FC400E64C79 /* QuantityViewController.swift in Sources */,
+				5BB465C4213A7F8600A2FBD6 /* Request.swift in Sources */,
+				5BB465D9213A817C00A2FBD6 /* Helpers.swift in Sources */,
+				459F3F1722687C56009595C4 /* ForgotPasswordVC.swift in Sources */,
+				5B90A3A8213D3FF500E0C1B2 /* InvoicesViewController.swift in Sources */,
+				AB9C535E235737D7009399DD /* MessageView.swift in Sources */,
+				5BB465F6213C2D7700A2FBD6 /* SettingsViewController.swift in Sources */,
+				5B10A980214B062300E5DFF8 /* TextFieldTableViewCell.swift in Sources */,
+				5BB465ED213AB07A00A2FBD6 /* UnderlineView.swift in Sources */,
+				AB9C535D235737D7009399DD /* DiscoveryViewController.swift in Sources */,
+				5B10A952214B032400E5DFF8 /* SearchPortViewController.swift in Sources */,
+				ABD4F913231F9DCA005DDF56 /* PrinterViewController.swift in Sources */,
+				5B4F3BA221DD27FF00A3F85E /* CashDrawerExtViewController.swift in Sources */,
+				5B12C2A4213F3C580061F193 /* PaymentConfirmationViewController.swift in Sources */,
+				5B10A95B214B032400E5DFF8 /* CashDrawerViewController.swift in Sources */,
+				5BB465C2213A7F8600A2FBD6 /* Environment.swift in Sources */,
+				5BF05490213CFDFE00DFC0B9 /* StatusColoredNavigationController.swift in Sources */,
+				5BB465E3213A89C400A2FBD6 /* UIStoryboard+Addition.swift in Sources */,
+				5B10A950214B032400E5DFF8 /* SMDefine.swift in Sources */,
+				5B785BBC213D7C95000C4403 /* CategoriesManager.swift in Sources */,
+				5BB465EA213A8E1D00A2FBD6 /* LoginViewController.swift in Sources */,
+				5BB465E1213A86C300A2FBD6 /* Customization.swift in Sources */,
+				5B10A95A214B032400E5DFF8 /* BluetoothSettingViewController.swift in Sources */,
+				5BB465C5213A7F8600A2FBD6 /* API.swift in Sources */,
+				5B10A95E214B032400E5DFF8 /* Communication.swift in Sources */,
+				5BB465C3213A7F8600A2FBD6 /* loggingPrint.swift in Sources */,
+				AB9C535C235737D7009399DD /* CustomPickerView.swift in Sources */,
+				5BF0548E213C8A7300DFC0B9 /* OrganizationViewController.swift in Sources */,
+				5BB465F0213B0BB600A2FBD6 /* UIViewController+Activity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB465962139853900A2FBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB4659F2139853900A2FBD6 /* Qoyod_point_of_saleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB4659C2139853900A2FBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB465822139853900A2FBD6 /* Qoyod point of sale */;
+			targetProxy = 5BB4659B2139853900A2FBD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BAD32A2214B869F00790978 /* Star.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAD32A1214B869F00790978 /* Base */,
+				5BAD32A5214B86B700790978 /* ar */,
+				5BAD32AA214B9AAB00790978 /* en */,
+			);
+			name = Star.storyboard;
+			sourceTree = "<group>";
+		};
+		5BAD32AD214C245100790978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAD32AE214C245100790978 /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BAD32B0214C245100790978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAD32B1214C245100790978 /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BB4658A2139853900A2FBD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB4658B2139853900A2FBD6 /* Base */,
+				5BAD32A3214B86B600790978 /* ar */,
+				5BAD32A8214B9AAB00790978 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BB465922139853900A2FBD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB465932139853900A2FBD6 /* Base */,
+				5BAD32A6214B86B700790978 /* ar */,
+				5BAD32AB214B9AAB00790978 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF05499213D1B0E00DFC0B9 /* Onboarding.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF05498213D1B0E00DFC0B9 /* Base */,
+				5BAD32A4214B86B700790978 /* ar */,
+				5BAD32A9214B9AAB00790978 /* en */,
+			);
+			name = Onboarding.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF054A1213D1B7400DFC0B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B90A3A1213D1CA400E0C1B2 /* Base */,
+				5BAD32A7214B86B700790978 /* ar */,
+				5BAD32AC214B9AAB00790978 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BB465A12139853900A2FBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BB465A22139853900A2FBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB465A42139853900A2FBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F68A1FBCB0BC51DC43B9E7 /* Pods-Qoyod point of sale.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Abdullah Aldayel (K2SY59M949)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R64UQHSPTC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Qoyod point of sale/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qoyod\\ point\\ of\\ sale/Epson/libs",
+					"$(PROJECT_DIR)/Qoyod\\ point\\ of\\ sale/Epson/libs",
+					"$(PROJECT_DIR)/libs",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qoyod.pos;
+				PRODUCT_NAME = "قيود نقاط البيع نسخة تجريبية";
+				PROVISIONING_PROFILE_SPECIFIER = "Qoyod Dev v1";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Qoyod point of sale-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BB465A52139853900A2FBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A13654AFB40223671042642 /* Pods-Qoyod point of sale.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R64UQHSPTC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Qoyod point of sale/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Qoyod\\ point\\ of\\ sale/Epson/libs",
+					"$(PROJECT_DIR)/Qoyod\\ point\\ of\\ sale/Epson/libs",
+					"$(PROJECT_DIR)/libs",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qoyod.pos;
+				PRODUCT_NAME = "قيود نقاط البيع نسخة تجريبية";
+				PROVISIONING_PROFILE_SPECIFIER = "Qoyod Adhoc v1";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Qoyod point of sale-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BB465A72139853900A2FBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95619044A40C8331FA1ABCE /* Pods-Qoyod point of saleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Qoyod point of saleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharjeel.qoyod.Qoyod-point-of-saleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qoyod point of sale.app/Qoyod point of sale";
+			};
+			name = Debug;
+		};
+		5BB465A82139853900A2FBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82420A8D6ADA23AD7F192ED /* Pods-Qoyod point of saleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Qoyod point of saleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sharjeel.qoyod.Qoyod-point-of-saleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qoyod point of sale.app/Qoyod point of sale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB4657E2139853900A2FBD6 /* Build configuration list for PBXProject "Qoyod point of sale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB465A12139853900A2FBD6 /* Debug */,
+				5BB465A22139853900A2FBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB465A32139853900A2FBD6 /* Build configuration list for PBXNativeTarget "Qoyod point of sale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB465A42139853900A2FBD6 /* Debug */,
+				5BB465A52139853900A2FBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB465A62139853900A2FBD6 /* Build configuration list for PBXNativeTarget "Qoyod point of saleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB465A72139853900A2FBD6 /* Debug */,
+				5BB465A82139853900A2FBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BB4658D2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BB4658E2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodel */,
+			);
+			currentVersion = 5BB4658E2139853900A2FBD6 /* Qoyod_point_of_sale.xcdatamodel */;
+			path = Qoyod_point_of_sale.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BB4657B2139853900A2FBD6 /* Project object */;
+}

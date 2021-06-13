@@ -1,0 +1,54 @@
+/* Class = "UILabel"; text = "Label"; ObjectID = "0OC-tS-XCz"; */
+"0OC-tS-XCz.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "5g9-Nz-up7"; */
+"5g9-Nz-up7.title" = "العودة";
+
+/* Class = "UILabel"; text = "Detail Label"; ObjectID = "6Jv-lg-uNW"; */
+"6Jv-lg-uNW.text" = "Detail Label";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "8jx-J0-QaM"; */
+"8jx-J0-QaM.title" = "العودة";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "9b8-g4-uhf"; */
+"9b8-g4-uhf.text" = "تعليق";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "A9p-P8-bYK"; */
+"A9p-P8-bYK.normalTitle" = "حفظ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "CH3-j7-w8p"; */
+"CH3-j7-w8p.title" = "العودة";
+
+/* Class = "UINavigationItem"; title = "CashDrawer Ext"; ObjectID = "Dgs-ld-6SI"; */
+"Dgs-ld-6SI.title" = "درج النقود";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Ijl-mn-tY7"; */
+"Ijl-mn-tY7.title" = "العودة";
+
+/* Class = "UINavigationItem"; title = "Bluetooth Setting"; ObjectID = "law-ZF-1lS"; */
+"law-ZF-1lS.title" = "إعدادات البلوتوث";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "MTt-TC-nkr"; */
+"MTt-TC-nkr.title" = "Main";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "OZD-z3-J7E"; */
+"OZD-z3-J7E.title" = "العودة";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "PNU-pX-g5m"; */
+"PNU-pX-g5m.title" = "العودة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QSh-P1-HZ5"; */
+"QSh-P1-HZ5.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Cash Drawer"; ObjectID = "rZ0-N5-kh8"; */
+"rZ0-N5-kh8.title" = "درج النقود";
+
+/* Class = "UINavigationItem"; title = "Search Port"; ObjectID = "UWX-li-07u"; */
+"UWX-li-07u.title" = "Search Port";
+
+/* Class = "UINavigationItem"; title = "Device Status"; ObjectID = "wi5-et-r6F"; */
+"wi5-et-r6F.title" = "حالة الجهاز";
+
+/* Class = "UIButton"; normalTitle = "Open"; ObjectID = "Y5Q-LA-oEy"; */
+"Y5Q-LA-oEy.normalTitle" = "مفتوح";
+

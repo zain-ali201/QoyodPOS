@@ -1,0 +1,36 @@
+/* Class = "UITextField"; placeholder = "Pin Code"; ObjectID = "cut-ud-JEO"; */
+"cut-ud-JEO.placeholder" = "الرمز السري";
+
+/* Class = "UILabel"; text = "Enter Pin Code"; ObjectID = "ewu-NW-9lU"; */
+"ewu-NW-9lU.text" = "الرمز السري";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "haD-rh-Zzj"; */
+"haD-rh-Zzj.normalTitle" = "هل نسيت كلمة المرور؟";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jJZ-9S-3d1"; */
+"jJZ-9S-3d1.placeholder" = "كلمة السر";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "LDH-tj-xiq"; */
+"LDH-tj-xiq.placeholder" = "البريد الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "register now"; ObjectID = "Q1q-Y1-ifC"; */
+"Q1q-Y1-ifC.normalTitle" = "التسجيل";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "rXx-Gy-y3i"; */
+"rXx-Gy-y3i.text" = "ليس لديك حساب؟";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Tu6-7c-HFQ"; */
+"Tu6-7c-HFQ.text" = "الدخول";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "VRz-99-Rnn"; */
+"VRz-99-Rnn.normalTitle" = "تأكيد";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "VtP-Sf-tcV"; */
+"VtP-Sf-tcV.normalTitle" = "الدخول";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "XRE-pp-bCN"; */
+"XRE-pp-bCN.normalTitle" = "استمرار";
+
+/* Class = "UILabel"; text = "Choose \nOrganization"; ObjectID = "y3j-CR-Yeo"; */
+"y3j-CR-Yeo.text" = "يرجى اختيار منشأة";
+

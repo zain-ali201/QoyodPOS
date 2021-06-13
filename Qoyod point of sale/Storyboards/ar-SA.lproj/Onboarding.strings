@@ -1,0 +1,72 @@
+
+/* Class = "UIViewController"; title = "SignupViewController"; ObjectID = "2X2-zp-OEL"; */
+"2X2-zp-OEL.title" = "SignupViewController";
+
+/* Class = "UITextField"; placeholder = "New Pin Code (4 digits)"; ObjectID = "5Jk-Sq-G26"; */
+"5Jk-Sq-G26.placeholder" = "New Pin Code (4 digits)";
+
+/* Class = "UILabel"; text = "Create a Pin Code"; ObjectID = "GRQ-Ta-sHa"; */
+"GRQ-Ta-sHa.text" = "Create a Pin Code";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "LDH-tj-xiq"; */
+"LDH-tj-xiq.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "OLu-Fa-7ed"; */
+"OLu-Fa-7ed.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "register now"; ObjectID = "Q1q-Y1-ifC"; */
+"Q1q-Y1-ifC.normalTitle" = "register now";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Tu6-7c-HFQ"; */
+"Tu6-7c-HFQ.text" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "VRz-99-Rnn"; */
+"VRz-99-Rnn.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "A Pin Code is a quick, convenient way to Login to Point of Sale app by using a pain  code (4-digit)"; ObjectID = "VaE-P7-jtG"; */
+"VaE-P7-jtG.text" = "A Pin Code is a quick, convenient way to Login to Point of Sale app by using a pain  code (4-digit)";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "VtP-Sf-tcV"; */
+"VtP-Sf-tcV.normalTitle" = "Login";
+
+/* Class = "UIViewController"; title = "ForgotPasswordVC"; ObjectID = "WNY-k6-Mbn"; */
+"WNY-k6-Mbn.title" = "ForgotPasswordVC";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "XRE-pp-bCN"; */
+"XRE-pp-bCN.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "YiS-xf-eab"; */
+"YiS-xf-eab.normalTitle" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "cc0-nA-xWm"; */
+"cc0-nA-xWm.normalTitle" = "Logout";
+
+/* Class = "UITextField"; placeholder = "Pin Code"; ObjectID = "cut-ud-JEO"; */
+"cut-ud-JEO.placeholder" = "Pin Code";
+
+/* Class = "UIButton"; normalTitle = "Reset pin code"; ObjectID = "dCU-oK-D1d"; */
+"dCU-oK-D1d.normalTitle" = "Reset pin code";
+
+/* Class = "UILabel"; text = "Enter Pin Code"; ObjectID = "ewu-NW-9lU"; */
+"ewu-NW-9lU.text" = "Enter Pin Code";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "haD-rh-Zzj"; */
+"haD-rh-Zzj.normalTitle" = "Forgot password?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jJZ-9S-3d1"; */
+"jJZ-9S-3d1.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "jS1-xc-n7J"; */
+"jS1-xc-n7J.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "Re-Enter Pin Code"; ObjectID = "k53-Ij-M9O"; */
+"k53-Ij-M9O.placeholder" = "Re-Enter Pin Code";
+
+/* Class = "UILabel"; text = "Back"; ObjectID = "lDO-IY-nuE"; */
+"lDO-IY-nuE.text" = "Back";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "rXx-Gy-y3i"; */
+"rXx-Gy-y3i.text" = "Don't have an account?";
+
+/* Class = "UILabel"; text = "Choose \nOrganization"; ObjectID = "y3j-CR-Yeo"; */
+"y3j-CR-Yeo.text" = "Choose \nOrganization";

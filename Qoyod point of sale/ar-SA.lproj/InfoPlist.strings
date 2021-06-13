@@ -1,0 +1,15 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "قيود نقاط البيع";
+
+/* Bundle name */
+"CFBundleName" = "$(PRODUCT_NAME)";
+
+/* Privacy - Bluetooth Peripheral Usage Description */
+"NSBluetoothPeripheralUsageDescription" = "يستخدم البلوتوث للاتصال بالطابعة";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "قارئ الباركود";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "يستخدم ملف فوتوغرافي لطباعة المعلومات";
+

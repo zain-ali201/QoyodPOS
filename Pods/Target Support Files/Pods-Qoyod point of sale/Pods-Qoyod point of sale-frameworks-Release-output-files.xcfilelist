@@ -1,0 +1,11 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionButton.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCBottomRefreshControl.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaBar.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollapsibleTableSectionViewController.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework
